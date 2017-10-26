@@ -1,0 +1,85 @@
+﻿@model Lexfy.Web.Interface.Models.TreeViewModel
+@{
+    ViewBag.Title = "Nova árvore de pesquisa";
+}
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Pesquisa</h3>
+            </div>
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Pesquisar...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Árore de Pesquisa <small>gerenciamento de conteúdo de pesquisa</small></h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    @using (Html.BeginForm("Create", "Tree", FormMethod.Post, new { @class = "form-horizontal form-label-left" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="x_content">
+                            <h4>Novo</h4>
+                            <p class="font-gray-dark">
+                                Insira os dados da nova árvore de pesquisa
+                            </p>
+                            @if (ViewData.ModelState["TreeErrorMessage"] != null && ViewData.ModelState["TreeErrorMessage"].Errors.Count > 0)
+                            {
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="alert alert-danger alert-dismissible">
+                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                            <h4><i class="icon fa fa-ban"></i> Ops! Um erro aconteceu...</h4>
+                                            @foreach (var t in ViewData.ModelState["TreeErrorMessage"].Errors)
+                                            {
+                                                @Html.Raw(t.ErrorMessage)
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.Title, htmlAttributes: new { })
+                                        @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        @Html.LabelFor(model => model.Description, htmlAttributes: new { })
+                                        @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.SelectedTreeChild, new { @class = "control-label " })<span class="text-blue"> *</span>
+                                            @Html.DropDownListFor(model => model.SelectedTreeChild, Model.TreesChild, string.Empty, new { @class = "form-control", autocomplete = "off" })
+                                            @Html.HiddenFor(model => model.SelectedTreeChild)
+                                            @Html.ValidationMessageFor(model => model.SelectedTreeChild, "", new { @class = "text-danger", style = "font-style: oblique;" })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="@Url.Action("Index", "Tree")" title="Voltar" class="btn btn-default">Voltar</a>
+                                        <input type="submit" value="Salvar" title="Salvar" class="btn btn-success" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

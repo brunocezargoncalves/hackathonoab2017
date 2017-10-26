@@ -1,0 +1,181 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="lexfy.com.br" resolutions="1x" timestamp="1508954769803">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="41210684" ref="index"/>
+    <file name="contato.css" crc="491227203" ref="contato"/>
+    <file name="acessar.css" crc="4204165129" ref="acessar"/>
+    <file name="cadastrarlogin.css" crc="21083423" ref="cadastrarlogin"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="museutils.js" crc="3803043152" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="whatinput.js" crc="86476730" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:cadastrarlogin:acessar"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="require.js" crc="4157109226" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="webpro.js" crc="242022427" ref="cadastrarlogin:acessar:contato"/>
+    <file name="form_check.php" crc="147359589" ref="cadastrarlogin"/>
+    <file name="form_throttle.php" crc="93986428" ref="cadastrarlogin"/>
+    <file name="form_process.php" crc="3851993751" ref="cadastrarlogin"/>
+    <file name="form-u1254.php" crc="57981010" ref="cadastrarlogin"/>
+    <file name="form-u1431.php" crc="3810022304" ref="acessar"/>
+    <file name="form-u2244.php" crc="455377977" ref="contato"/>
+  </folder>
+  <folder name="images">
+    <file name="lexfylogo.png" crc="3797282141" seo="true" ref="index:cadastrarlogin:acessar:contato">
+      <caption webpage="index" alt=""/>
+      <caption webpage="contato" alt=""/>
+      <caption webpage="cadastrarlogin" alt=""/>
+      <caption webpage="acessar" alt=""/>
+    </file>
+    <file name="u176-4-a.png" crc="4280171811" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:cadastrarlogin:acessar:contato"/>
+    <file name="u201_states.png" crc="365534605" ref="index"/>
+    <file name="u201_states-r.png" crc="70371218" ref="index"/>
+    <file name="u204_states.png" crc="4202379817" ref="index"/>
+    <file name="u204_states-r.png" crc="4287000581" ref="index"/>
+    <file name="u235_states.png" crc="4205612037" ref="index"/>
+    <file name="u235_states-r.png" crc="385032752" ref="index"/>
+    <file name="u238_states.png" crc="3863934332" ref="index"/>
+    <file name="u238_states-r.png" crc="490353454" ref="index"/>
+    <file name="u130-4.png" crc="341384458" ref="index"/>
+    <file name="toda legislação tributária ao alcance de um click.png" crc="316164218" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u310.png" crc="4254629185" ref="index"/>
+    <file name="u310-r.png" crc="4254629185" ref="index"/>
+    <file name="u2130-25.png" crc="347039147" ref="index"/>
+    <file name="u3864.png" crc="166997760" ref="index"/>
+    <file name="u3864-r.png" crc="355644993" ref="index"/>
+    <file name="u3889-4.png" crc="213664960" ref="index"/>
+    <file name="u4213-7.png" crc="126881849" ref="index"/>
+    <file name="u4502-16.png" crc="385946520" ref="index"/>
+    <file name="u1801_states.png" crc="3788998029" ref="index"/>
+    <file name="u1801_states-r.png" crc="525468735" ref="index"/>
+    <file name="use nossa tecnologia a seu favor.png" crc="112712848" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte-5.svg" crc="3875433279" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte 5_poster_.png" crc="422398888" ref="index"/>
+    <file name="arte-6.svg" crc="144436936" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte 6_poster_.png" crc="475101493" ref="index"/>
+    <file name="u3870.png" crc="441442295" ref="index"/>
+    <file name="u3870-r.png" crc="65103717" ref="index"/>
+    <file name="u3886-4.png" crc="3906628523" ref="index"/>
+    <file name="u4513-7.png" crc="3795244570" ref="index"/>
+    <file name="u4228-4.png" crc="4055642377" ref="index"/>
+    <file name="u4505-19.png" crc="4156891560" ref="index"/>
+    <file name="arte-7.svg" crc="3925209529" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte 7_poster_.png" crc="3927976734" ref="index"/>
+    <file name="u4542-4.png" crc="4252001777" ref="index"/>
+    <file name="u4545-4.png" crc="519858555" ref="index"/>
+    <file name="u4548-4.png" crc="4250287079" ref="index"/>
+    <file name="u4551-4.png" crc="3859263454" ref="index"/>
+    <file name="u4528-4.png" crc="4020883" ref="index"/>
+    <file name="side-business-taxescopiarcopiar.jpg" crc="146463846" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="camada 2.jpg" crc="329718277" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cor seletiva 1.png" crc="4218462220" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte-2.svg" crc="409999247" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte 2_poster_.png" crc="3978264038" ref="index"/>
+    <file name="arte-4.svg" crc="316854143" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="arte 4_poster_.png" crc="43927602" ref="index"/>
+    <file name="u1215_states.png" crc="396712135" ref="cadastrarlogin"/>
+    <file name="u1215_states-r.png" crc="4280171811" ref="cadastrarlogin"/>
+    <file name="u1218_states.png" crc="365534605" ref="cadastrarlogin"/>
+    <file name="u1218_states-r.png" crc="70371218" ref="cadastrarlogin"/>
+    <file name="u1212_states.png" crc="4202379817" ref="cadastrarlogin"/>
+    <file name="u1212_states-r.png" crc="4287000581" ref="cadastrarlogin"/>
+    <file name="u1222_states.png" crc="4205612037" ref="cadastrarlogin"/>
+    <file name="u1222_states-r.png" crc="385032752" ref="cadastrarlogin"/>
+    <file name="u1217_states.png" crc="457811178" ref="cadastrarlogin"/>
+    <file name="u1217_states-r.png" crc="3940850110" ref="cadastrarlogin"/>
+    <file name="u1229.png" crc="338960442" ref="cadastrarlogin"/>
+    <file name="u1229-r.png" crc="4174760290" ref="cadastrarlogin"/>
+    <file name="u1275.png" crc="3961259763" ref="cadastrarlogin"/>
+    <file name="u1275-ferr.png" crc="62902027" ref="cadastrarlogin"/>
+    <file name="u1258.png" crc="3920255008" ref="cadastrarlogin"/>
+    <file name="u1258-ferr.png" crc="315157253" ref="cadastrarlogin"/>
+    <file name="u1272.png" crc="4009779119" ref="cadastrarlogin"/>
+    <file name="u1272-r.png" crc="4054098960" ref="cadastrarlogin"/>
+    <file name="checkboxunchecked.jpg" crc="495023700" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="checkboxuncheckedrollover.jpg" crc="4076496830" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="checkboxuncheckedmousedown.jpg" crc="361678653" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="checkboxchecked.jpg" crc="477278992" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="checkboxcheckedrollover.jpg" crc="435737969" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="checkboxcheckedmousedown.jpg" crc="4004261994" ref="cadastrarlogin:acessar">
+      <caption webpage="cadastrarlogin" alt=""/>
+    </file>
+    <file name="u1262.png" crc="92741493" ref="cadastrarlogin"/>
+    <file name="u1262-ferr.png" crc="4026723144" ref="cadastrarlogin"/>
+    <file name="u1270.png" crc="3806720922" ref="cadastrarlogin"/>
+    <file name="u1270-ferr.png" crc="3940344087" ref="cadastrarlogin"/>
+    <file name="u4258.png" crc="471121259" ref="cadastrarlogin"/>
+    <file name="u4258-ferr.png" crc="4250474083" ref="cadastrarlogin"/>
+    <file name="u1428_states.png" crc="396712135" ref="acessar"/>
+    <file name="u1428_states-r.png" crc="4280171811" ref="acessar"/>
+    <file name="u1429_states.png" crc="365534605" ref="acessar"/>
+    <file name="u1429_states-r.png" crc="70371218" ref="acessar"/>
+    <file name="u1427_states.png" crc="4202379817" ref="acessar"/>
+    <file name="u1427_states-r.png" crc="4287000581" ref="acessar"/>
+    <file name="u1458_states.png" crc="4205612037" ref="acessar"/>
+    <file name="u1458_states-r.png" crc="385032752" ref="acessar"/>
+    <file name="u1457_states.png" crc="4174760290" ref="acessar"/>
+    <file name="u1457_states-r.png" crc="4118967088" ref="acessar"/>
+    <file name="u1426-4.png" crc="341384458" ref="acessar"/>
+    <file name="u1434.png" crc="520934433" ref="acessar"/>
+    <file name="u1434-ferr.png" crc="213062692" ref="acessar"/>
+    <file name="u1438.png" crc="4100506192" ref="acessar"/>
+    <file name="u1438-r.png" crc="4078267099" ref="acessar"/>
+    <file name="u1441.png" crc="3792260551" ref="acessar"/>
+    <file name="u1441-ferr.png" crc="6414194" ref="acessar"/>
+    <file name="u1453.png" crc="4290445892" ref="acessar"/>
+    <file name="u1453-ferr.png" crc="156971969" ref="acessar"/>
+    <file name="u1750.png" crc="352581240" ref="acessar"/>
+    <file name="u1750-r.png" crc="426977368" ref="acessar"/>
+    <file name="u1864.png" crc="425298713" ref="acessar"/>
+    <file name="u1864-r.png" crc="425298713" ref="acessar"/>
+    <file name="u2157_states.png" crc="18607222" ref="contato"/>
+    <file name="u2157_states-r.png" crc="3924660714" ref="contato"/>
+    <file name="u2164_states.png" crc="365534605" ref="contato"/>
+    <file name="u2164_states-r.png" crc="70371218" ref="contato"/>
+    <file name="u2158_states.png" crc="4202379817" ref="contato"/>
+    <file name="u2158_states-r.png" crc="4287000581" ref="contato"/>
+    <file name="u2185.png" crc="4205612037" ref="contato"/>
+    <file name="u2185-r.png" crc="385032752" ref="contato"/>
+    <file name="u2186_states.png" crc="4174760290" ref="contato"/>
+    <file name="u2186_states-r.png" crc="4118967088" ref="contato"/>
+    <file name="u2165-4.png" crc="341384458" ref="contato"/>
+  </folder>
+  <file name="index.html" crc="279149049" seo="true" mt="1508954555656" redirect="true"/>
+  <file name="cadastrarlogin.html" crc="3765448759" seo="true" mt="1508951083404" redirect="true"/>
+  <file name="acessar.html" crc="4169879471" seo="true" mt="1508868338819" redirect="true"/>
+  <file name="contato.html" crc="4072464058" seo="true" mt="1508868321149" redirect="true"/>
+</manifest>
