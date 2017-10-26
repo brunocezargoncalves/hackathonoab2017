@@ -1,7 +1,7 @@
 Arquitetura
 
 A arquitetura da plataforma Lexfy está baseada na composição e disposição de conteúdo baseado em relacionamentos, nesse caso, 
-a estrutura de dados é relacionada de forma ampla e sem limite.  Ou seja, a partir da entrada de um determinado conteúdo esse 
+a estrutura de dados é relacionada de forma ampla e sem limites.  Ou seja, a partir da entrada de um determinado conteúdo esse 
 pode ser vinculado a outro já existente e assim por diante - abstrairmos ou ilustramos tal conceito pensando de forma equivalente 
 a uma árvore, onde existe um tronco principal e diversas ramificações a partir desse.
 
