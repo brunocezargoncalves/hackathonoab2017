@@ -1,0 +1,14 @@
+Arquitetura
+
+A arquitetura da plataforma Lexfy está baseada na composição e disposição de conteúdo baseado em relacionamentos, nesse caso, 
+a estrutura de dados é relacionada de forma ampla e sem limite.  Ou seja, a partir da entrada de um determinado conteúdo esse 
+pode ser vinculado a outro já existente e assim por diante - abstrairmos ou ilustramos tal conceito pensando de forma equivalente 
+a uma árvore, onde existe um tronco principal e diversas ramificações a partir desse.
+
+Desenvolvemos um projeto em 4 (quatro) camadas isoladas (domain, application (services), repository, interface web) de fácil 
+escalabilidade - com injeção de dependência, linguagem C# e Framework ASP.NET MVC 5 com Razor. Ainda, utilizamos o 
+banco de dados SQL Server, sendo acessado na aplicação através dos verbos da biblioteca System.Data.SqlClient. 
+E hospedamos na nuvem Microsoft Azure.
+
+Escolhemos tecnologia Microsoft não apenas pela familiaridade, mas principalmente por acreditarmos que essas 
+são robustas e consistentes o suficiente para projetarmos um futuros com milhares de acessos simultâneos. 
